@@ -12,11 +12,7 @@ main {
 .my-nav {
   background-color: white;
   z-index: 100;
-}
-.nav{
-  position: sticky;
-z-index: 100;
-}  
+} 
 .nav-n-msg {
   position: sticky;
   top: 0px;
