@@ -13,7 +13,10 @@ main {
   background-color: white;
   z-index: 100;
 }
-/*  NAVBAR */
+.nav{
+  position: sticky;
+z-index: 100;
+}  
 .nav-n-msg {
   position: sticky;
   top: 0px;
