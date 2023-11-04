@@ -12,6 +12,7 @@ main {
 .nav{
   position: sticky;
   z-index: 100%;
+    top:0;
 }
 .my-nav {
   background-color: white;
