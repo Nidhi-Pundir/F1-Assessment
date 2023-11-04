@@ -9,11 +9,16 @@ main {
   margin: auto;
   width: 85vw;
 }
+.nav{
+  position: sticky;
+}
 .my-nav {
   background-color: white;
   z-index: 100;
-} 
-.nav-n-msg {
+  position: sticky;
+}
+
+.nav-msg {
   position: sticky;
   top: 0px;
   z-index: 100;
@@ -620,6 +625,10 @@ margin-top:5px;
 
 
 @media screen and (max-width: 768px) {
+  .cards-1,.card-1,.card-2,.card-3,.card-4{
+    width: 90% !important;
+    margin: auto !important;
+  }
   .hero-sub-sec{
     width: 90% !important;
     margin: auto !important;
